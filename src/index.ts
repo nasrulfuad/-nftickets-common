@@ -4,8 +4,8 @@ interface Color {
 }
 
 const color: Color = {
-  red: 300,
-  blue: 200,
+  red: 3000,
+  blue: 2000,
 };
 
 console.log(color);
