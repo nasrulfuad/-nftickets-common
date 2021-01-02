@@ -1,7 +1,11 @@
-export * from "./AbstracListener";
-export * from "./AbstractPublisher";
-export * from "./Subjects";
+export * from "./abstracts/AbstracListener";
+export * from "./abstracts/AbstractPublisher";
+
+export * from "./types/Subjects";
+
 export * from "./TicketCreatedEvent";
 export * from "./TicketUpdatedEvent";
+export * from "./OrderCreatedEvent";
+export * from "./OrderCreatedEvent";
 
 export * from "./types/OrderStatus";
